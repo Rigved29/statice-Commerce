@@ -1,0 +1,679 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=STIX+Two+Text&display=swap");
+
+h1 {
+  color: white;
+  font-size: 50px;
+  font-family: "Libre Franklin", sans-serif;
+}
+h2,
+h3 {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+html {
+  height: 5px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-color: white;
+}
+
+img {
+  width: 200px;
+}
+
+.hamburger > div {
+  width: 35px;
+  height: 5px;
+  background-color: #df744a;
+  border-radius: 10px;
+  margin: 5px;
+}
+.hamburger {
+  cursor: pointer;
+}
+.main > div > p {
+  color: black;
+  font-weight: 800;
+}
+.nav-items > a {
+  color: #df744a;
+}
+.nav-items > a:hover {
+  color: white;
+  background-color: #df744a;
+}
+
+.head {
+  background-color: #f7f5f6;
+
+  position: sticky;
+  top: 0;
+  margin: 0px;
+  padding: 0px;
+  z-index: 50;
+}
+
+.main {
+  width: 100%;
+  height: 80vh;
+  background-image: url("https://images.unsplash.com/photo-1553729784-e91953dec042?");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  align-content: center;
+  margin: 0px;
+  padding: 0px;
+  display: grid;
+}
+.heading {
+  text-align: center;
+  align-content: center;
+}
+
+#book {
+  background-color: teal;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+#book > a {
+  color: white;
+}
+.sec2,
+.sec3,
+.sec4,
+.sec5 {
+  text-align: center;
+}
+.sec2 > p {
+  font-size: 30px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.products > div > h2 {
+  color: black;
+}
+
+#book {
+  margin: 5px;
+}
+
+.pro {
+  transition: all 0.4;
+}
+
+.pro:hover {
+  box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, 0.15);
+}
+
+.sec3cont > img {
+  height: 80%;
+}
+
+.highlight {
+  margin: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-right: 10px;
+  background-color: #fedcd2;
+  border-left: 4px solid #438496;
+}
+.sec4 {
+  background-color: #5893ca;
+  padding-top: 5px;
+}
+
+.sec4cont {
+  width: 70vw;
+  height: 50vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 13vw;
+}
+
+.sec4cont > div > img {
+  border: 5px solid rgb(88, 93, 116);
+  border-radius: 50%;
+  width: 150px;
+}
+
+.t1 {
+  position: absolute;
+  display: block;
+  justify-content: center;
+  width: inherit;
+  transition: transform 1s;
+}
+.t2 {
+  position: absolute;
+  display: block;
+  justify-content: center;
+  width: inherit;
+  transition: transform 1s;
+}
+
+.t3 {
+  position: absolute;
+  display: block;
+  justify-content: center;
+  width: inherit;
+  transition: transform 1s;
+}
+
+.slider__btn {
+  position: relative;
+  top: 5%;
+  z-index: 10;
+
+  border: none;
+  background: rgba(255, 255, 255, 0.7);
+  font-family: inherit;
+  color: #333;
+  border-radius: 50%;
+  height: 4.5rem;
+  width: 4.5rem;
+  font-size: 3.25rem;
+  cursor: pointer;
+}
+
+.slider__btn--left {
+  left: -60%;
+  transform: translate(50%, 50%);
+}
+
+.slider__btn--right {
+  right: -50%;
+  transform: translate(50%, 50%);
+}
+
+.footercont {
+  text-align: center;
+}
+
+.footer {
+  padding-top: 20px;
+  background-color: #dcb239;
+}
+
+.footercont > div > a {
+  padding-left: 5px;
+  padding-right: 5px;
+  color: white;
+}
+
+.ico {
+  width: 40px;
+  padding: 2px;
+}
+
+.sec5cont {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sec5cont > div > p {
+  text-align: start;
+}
+
+.sec6 > div > div > h2 {
+  color: #5893ca;
+}
+
+.sec6 > div {
+  width: 80%;
+  margin-left: 10%;
+}
+.sec8 > div > div {
+  width: 60vw;
+  text-align: left;
+  margin-left: 22vw;
+}
+form > div > input {
+  border: none;
+  height: 30px;
+  background-color: whitesmoke;
+}
+
+form > div > button {
+  background-color: teal;
+}
+video {
+  border: 5px solid black;
+  border-radius: 20px;
+}
+@media only screen and (min-width: 800px) {
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-items {
+    justify-content: space-evenly;
+  }
+
+  .nav-items a {
+    padding: 8px;
+
+    font-weight: 700;
+    font-family: "STIX Two Text", serif;
+    transition: 0.3s;
+  }
+  .hamburger {
+    display: none;
+  }
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 10px;
+  }
+  #pro1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  #pro2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  #pro3 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .proi {
+    width: 100%;
+    height: 50vh;
+  }
+  .sec3 > div {
+    display: grid;
+    grid-template-rows: auto;
+  }
+  .sec3cont {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .sec3 > div > div > img {
+    width: 42vw;
+  }
+  .slider__btn--right {
+    right: -45%;
+  }
+  .slider__btn {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 3rem;
+  }
+  .sec5cont {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 400px 400px;
+  }
+  .vid {
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  .sec5cont > div {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .sec6 > div > div {
+    padding-bottom: 20px;
+  }
+  form {
+    width: 90%;
+  }
+
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5,
+  .sec7,
+  .sec8,
+  .footer {
+    text-align: center;
+  }
+  .form {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+  }
+
+  form {
+    display: block;
+  }
+
+  form > div > input {
+    margin: 10px;
+    padding: 5px;
+    width: 90%;
+  }
+  form > div > input:focus {
+    border: none;
+  }
+  form > div > textarea {
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+
+  form > div > button {
+    margin: 10px;
+    padding: 5px;
+    width: 92%;
+    color: white;
+    cursor: pointer;
+  }
+  iframe {
+    width: 80%;
+    height: 80vh;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  nav {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .show {
+    display: grid;
+    z-index: 50;
+  }
+  .navc {
+    display: none;
+  }
+  .nav-items a {
+    padding: 8px;
+
+    font-weight: 700;
+    font-family: "STIX Two Text", serif;
+    transition: 0.3s;
+  }
+  .hamburger {
+    margin: 5px;
+  }
+
+  .products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #pro1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  #pro2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  #pro3 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+
+  .proi {
+    width: 100%;
+    height: 70vh;
+  }
+  .sec3 > div {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 400px 400px;
+  }
+  .sec3cont {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .sec3 > div > div > img {
+    width: 40vw;
+    margin-top: 50px;
+  }
+  .slider__btn--right {
+    right: -45%;
+  }
+  .slider__btn {
+    width: 3.5rem;
+    height: 3.5rem;
+    font-size: 3rem;
+  }
+  .sec5cont {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 400px;
+  }
+  .vid {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 400px;
+  }
+  .sec5cont > div {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5,
+  .sec7,
+  .sec8,
+  .footer {
+    text-align: center;
+  }
+  .form {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+  }
+
+  form {
+    display: block;
+  }
+
+  form > div > input {
+    margin: 10px;
+    padding: 5px;
+    width: 90%;
+  }
+
+  form > div > textarea {
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+
+  form > div > button {
+    margin: 10px;
+    padding: 5px;
+    width: 92%;
+
+    color: white;
+    cursor: pointer;
+  }
+  iframe {
+    width: 80%;
+    height: 80vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 35px;
+  }
+  .products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  #pro1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  #pro2 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  #pro3 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .proi {
+    width: 100%;
+    height: 50vh;
+  }
+  .sec3 > div {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 400px 400px;
+  }
+  .sec3cont {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 80%;
+  }
+
+  .sec3 > div > div > img {
+    width: 70vw;
+    margin-top: 160px;
+  }
+  .slider__btn--right {
+    right: -34%;
+  }
+  .slider__btn {
+    width: 3rem;
+    height: 3rem;
+    font-size: 2.5rem;
+  }
+  .sec5cont {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 400px;
+  }
+  .vid {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .sec5cont > div {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  .sec2,
+  .sec3,
+  .sec4,
+  .sec5,
+  .sec7,
+  .sec8,
+  .footer {
+    text-align: center;
+  }
+  .form {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+  }
+
+  form {
+    display: block;
+  }
+
+  form > div > input {
+    margin: 10px;
+    padding: 5px;
+    width: 90%;
+  }
+
+  form > div > textarea {
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+  }
+
+  form > div > button {
+    margin: 10px;
+    padding: 5px;
+    width: 92%;
+
+    color: white;
+    cursor: pointer;
+  }
+  iframe {
+    width: 90%;
+    height: 50vh;
+  }
+  .sec4cont > div > h3 {
+    margin-bottom: 0;
+  }
+  .sec4cont > div > p {
+    margin-top: 8px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .sec4cont > div > h3 {
+    margin-top: 0;
+  }
+  #last {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .slider__btn--right {
+    right: -35%;
+  }
+  .slider__btn {
+    width: 3rem;
+    height: 3rem;
+    font-size: 2.5rem;
+  }
+}
